@@ -1,13 +1,21 @@
-const appContent = document.getElementById("main-content");
+import { renderFooter } from "./components/footer.js";
+import { renderHome } from "./pages/home.js";
+import { renderHeader } from "./components/header.js";
+import { renderAboutUs } from "./pages/aboutus.js";
+import { renderServices } from "./pages/services.js";
+import { renderCallUs } from "./pages/callus.js";
 
+const appContent = document.getElementById("main-content");
 const routes = {
-  "#/": renderLogin,
+  "#/": renderHome,
+  "#/aboutus": renderAboutUs,
+  "#/services": renderServices,
+  "#/callus": renderCallUs,
   404: () => (appContent.innerHTML = `<h2>404 - page not found</h2>`),
 };
 
 function loadRoute(hash) {
   renderHeader();
-  renderSidebar(appContent); // Pass appContent to sidebar
   renderFooter();
   appContent.innerHTML = "";
 
