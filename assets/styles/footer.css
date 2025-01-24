@@ -9,14 +9,11 @@
 
     text-align: center;
 }
-.container .social-links{
-    padding: auto;
-}
-.container .social-links a {
-
-    padding:0.5rem;
+.container .social-links a{
     color: white;
+    padding: .5rem;
 }
+
 .container .social-links a:hover {
     color: rgb(183, 68, 129);
 }
