@@ -1,5 +1,11 @@
+:root {
+    --primary-color: #0074ca; /* Blue */
+    --secondary-color: #6C757D; /* Gray */
+    --accent-color: #FFC107; /* Yellow */
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }

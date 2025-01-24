@@ -7,10 +7,10 @@ import { renderCallUs } from "./pages/callus.js";
 
 const appContent = document.getElementById("main-content");
 const routes = {
-  "#/": renderHome,
-  "#/aboutus": renderAboutUs,
-  "#/services": renderServices,
-  "#/callus": renderCallUs,
+  "/#": renderHome,
+  "#aboutus": renderAboutUs,
+  "#services": renderServices,
+  "#callus": renderCallUs,
   404: () => (appContent.innerHTML = `<h2>404 - page not found</h2>`),
 };
 
@@ -19,7 +19,7 @@ function loadRoute(hash) {
   renderFooter();
   appContent.innerHTML = "";
 
-  const path = hash || window.location.hash || "#/";
+  const path = hash || window.location.hash || "/";
 
   const route = routes[path] || routes[404];
   route(appContent);
