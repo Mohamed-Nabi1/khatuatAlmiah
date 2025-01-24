@@ -1,0 +1,36 @@
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+}
+.container{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    text-align: center;
+}
+.container .social-links{
+    padding: auto;
+}
+.container .social-links a {
+
+    padding:0.5rem;
+    color: white;
+}
+.container .social-links a:hover {
+    color: rgb(183, 68, 129);
+}
+
+.container .privacy{
+    text-align: end;
+
+}
+.container .privacy a{
+    text-decoration: none;
+       color:  #0074ca
+}
+.container .privacy a:last-child{
+   padding-right: 1rem;
+}
+
+
