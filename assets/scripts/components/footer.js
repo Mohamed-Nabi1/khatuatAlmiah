@@ -9,10 +9,7 @@ export function renderFooter() {
                 <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <div class="privacy">
-            <a href="#">سياسة الخصوصية</a>
-            <a href="">الأسئلة الشائعة</a>
-            </div>
-            <p>.&copy;2023 جميع الحقوق محفوظة لشركة خطوات المياه</p>
+            
+            <p>.&copy;2025 جميع الحقوق محفوظة لشركة خطوات المياه</p>
         </div>`;
 }
