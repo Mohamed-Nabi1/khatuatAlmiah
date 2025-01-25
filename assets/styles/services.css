@@ -1,52 +1,54 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-    font-family: "Cairo", serif;
     font-optical-sizing: auto;
 }
 
-.services-container{
-    margin-top: 4rem;  
+.services-container {
+    margin-top: 4rem;
 }
-.services-container .box{
+
+.services-container .box {
 
     padding: 1rem;
     text-align: center;
-    background-color :#0074ca;
+    background-color: #0074ca;
     color: white;
     font-size: 10vw;
 
 }
-.services-container .box2{
+
+.services-container .box2 {
     padding: 1rem;
     text-align: center;
-    color :#0074ca;    
+    color: #0074ca;
     font-size: 5vw;
 }
 
-.services-container .container{
-    padding:2rem;
+.services-container .container {
+    padding: 2rem;
     background-color: #0074ca;
     height: fit-content;
-    margin-bottom:20px;
-  
-}
-.services-container .container .card{
-    background-color: white;
-    margin: 10px;
-   width: 20rem;
+    margin-bottom: 20px;
+
 }
 
-.services-container .container .logo img{ 
-    max-width:  100%;
+.services-container .container .card {
+    background-color: white;
+    margin: 10px;
+    width: 20rem;
+}
+
+.services-container .container .logo img {
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     overflow-x: inherit;
 }
-.services-container p{
-  
+
+.services-container p {
+
     margin: 20px;
     padding: 0;
     direction: rtl;
@@ -54,19 +56,19 @@
     font-size: 20px;
 }
 
-.slide-section{
+.slide-section {
     padding: 20px;
     margin: 0;
-background-color: #0074ca;
+    background-color: #0074ca;
 }
 
-.slide-section .card{
-    width:25vw ;
+.slide-section .card {
+    width: 25vw;
 }
 
 
-.slide-section .card img{
-    width:100%;
+.slide-section .card img {
+    width: 100%;
     height: 100%;
 
 }

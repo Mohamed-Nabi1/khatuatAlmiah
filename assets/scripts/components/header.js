@@ -1,4 +1,7 @@
+import { loadCSS } from "../utils/cssloader.js";
+
 export function renderHeader() {
+  loadCSS("./assets/styles/header.css");
   const header = document.getElementById("header");
   header.innerHTML = `
   <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary navbar-light shadow fixed-top ">
@@ -38,7 +41,7 @@ export function renderHeader() {
 
   document.getElementById("home-btn").addEventListener("click", (e) => {
     e.preventDefault();
-    window.location.hash = "/home";
+    window.location.hash = "";
   });
   document.getElementById("aboutus-btn").addEventListener("click", (e) => {
     e.preventDefault();
