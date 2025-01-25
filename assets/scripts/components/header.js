@@ -4,8 +4,8 @@ export function renderHeader() {
   <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary navbar-light shadow fixed-top ">
         <div class="container-fluid">
             <!-- Logo (aligned to the far left) -->
-            <img src="https://png.pngtree.com/template/20190316/ourmid/pngtree-water-logo-image_79160.jpg"
-                class="img-fluid" alt="logo image" width="30px" height="30px">
+            <img src="assets/images/image.png"
+                class="img-fluid" alt="logo image" width="40px" height="40px">
             <a class="navbar-brand ps-2" href="#">خطوات المياه</a>
 
             <!-- Toggler for smaller screens -->
@@ -19,17 +19,37 @@ export function renderHeader() {
             <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                        <a id="home-btn" class="nav-link active" aria-current="page" href="#">الرئيسية</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">حول</a>
+                        <a id="aboutus-btn" class="nav-link" href="#">حول</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">اتصل بنا</a>
+                        <a id="services-btn" class="nav-link" href="#">خدماتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="callus-btn" class="nav-link" href="#">اتصل بنا</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
   `;
+
+  document.getElementById("home-btn").addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.hash = "/home";
+  });
+  document.getElementById("aboutus-btn").addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.hash = "/aboutus";
+  });
+  document.getElementById("services-btn").addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.hash = "/services";
+  });
+  document.getElementById("callus-btn").addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.hash = "/callus";
+  });
 }

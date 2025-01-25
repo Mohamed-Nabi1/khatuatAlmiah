@@ -8,9 +8,9 @@ import { renderCallUs } from "./pages/callus.js";
 const appContent = document.getElementById("main-content");
 const routes = {
   "/#": renderHome,
-  "#aboutus": renderAboutUs,
-  "#services": renderServices,
-  "#callus": renderCallUs,
+  "#/aboutus": renderAboutUs,
+  "#/services": renderServices,
+  "#/callus": renderCallUs,
   404: () => (appContent.innerHTML = `<h2>404 - page not found</h2>`),
 };
 
