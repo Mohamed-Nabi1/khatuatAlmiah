@@ -38,19 +38,33 @@
     background-color: white;
     margin: 10px;
     width: 20rem;
+
 }
 
+.services-container .container .logo{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    background-color: white;
+    border-radius:10% ;
+   
+
+   
+}
 .services-container .container .logo img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    overflow-x: inherit;
+}
+.services-container .container .logo img:hover  {
+    animation: four-steps 1s linear 4;
+    -webkit-animation: four-steps 1s linear 4;
 }
 
 .services-container p {
 
-    margin: 20px;
-    padding: 0;
+    margin: 30px;
+
     direction: rtl;
     line-height: 1.5;
     font-size: 20px;
