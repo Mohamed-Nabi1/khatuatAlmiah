@@ -1,17 +1,19 @@
 #footer {
-    
+
     background-color: #333;
     color: white;
     padding: 2rem 0;
     width: 100%;
 }
-.container{
+
+.container {
     padding-bottom: 2rem;
     padding-top: 2rem;
 
     text-align: center;
 }
-.container .social-links a{
+
+.container .social-links a {
     color: white;
     padding: .5rem;
 }
@@ -20,16 +22,16 @@
     color: rgb(183, 68, 129);
 }
 
-.container .privacy{
+.container .privacy {
     text-align: end;
 
 }
-.container .privacy a{
+
+.container .privacy a {
     text-decoration: none;
-       color:  --main-color;
-}
-.container .privacy a:last-child{
-   padding-right: 1rem;
+    color: --main-color;
 }
 
-
+.container .privacy a:last-child {
+    padding-right: 1rem;
+}
