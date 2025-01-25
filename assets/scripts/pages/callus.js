@@ -1,8 +1,9 @@
 import { loadCSS } from "../utils/cssloader.js";
+import { unloadCSS } from "../utils/cssloader.js";
 
 export function renderCallUs(mainContent) {
   unloadCSS("./assets/styles/home.css");
-  loadCSS('./assets/styles/callus.css');
+  loadCSS("./assets/styles/callus.css");
 
   mainContent.innerHTML = `
     <div class="full-width-bg text-center py-5 bg-primary text-white">

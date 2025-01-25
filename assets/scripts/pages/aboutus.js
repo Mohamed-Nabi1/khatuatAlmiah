@@ -1,4 +1,9 @@
+import { loadCSS } from "../utils/cssloader.js";
+import { unloadCSS } from "../utils/cssloader.js";
+
 export function renderAboutUs(mainContent) {
+  unloadCSS("./assets/styles/home.css");
+  loadCSS("./assets/styles/aboutus.css");
   mainContent.innerHTML = `
    <div class="container text-center">
         <!-- Logo Section -->
