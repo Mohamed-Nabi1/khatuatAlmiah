@@ -7,7 +7,7 @@ import { renderCallUs } from "./pages/callus.js";
 
 const appContent = document.getElementById("main-content");
 const routes = {
-  "/#": renderHome,
+  "#/": renderHome,
   "#/aboutus": renderAboutUs,
   "#/services": renderServices,
   "#/callus": renderCallUs,
@@ -29,7 +29,7 @@ document.addEventListener("click", (e) => {
   if (e.target.matches("[data-link]")) {
     e.preventDefault();
     const href = e.target.getAttribute("href");
-    window.location.hash = href; 
+    window.location.hash = href;
     loadRoute(href);
   }
 });

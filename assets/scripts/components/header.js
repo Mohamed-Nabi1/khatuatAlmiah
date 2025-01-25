@@ -41,7 +41,7 @@ export function renderHeader() {
 
   document.getElementById("home-btn").addEventListener("click", (e) => {
     e.preventDefault();
-    window.location.hash = "";
+    window.location.hash = "#/";
   });
   document.getElementById("aboutus-btn").addEventListener("click", (e) => {
     e.preventDefault();
