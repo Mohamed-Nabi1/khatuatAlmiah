@@ -1,30 +1,64 @@
-:root {
-    --primary-color: #0074ca;
-    /* Blue */
-    --secondary-color: #6C757D;
-    /* Gray */
-    --accent-color: #FFC107;
-    /* Yellow */
+.bg-image {
+    height: 550px;
+    object-fit: cover;
+    width: 100%;
 }
 
-* {
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0072caa7;
+    color: white;
+    padding: 1rem 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.expertise {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    background-color: #0074ca;
 }
 
-#main-content {
-    height: 100vh;
+.expertise-text {
+    direction: rtl;
+    color: white;
+    text-align: justify;
 }
 
-.main-image {
-    height: 100%;
-    width: 100%;
-    text-align: center;
+#services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Allows items to wrap onto the next line */
+    overflow-wrap: anywhere;
+    /* Ensures content wraps inside elements */
 }
 
-.main-image img {
-    max-height: 100%;
-    max-width: 100%;
+#services-container>* {
+    flex: 1 1 200px;
+    /* Ensures items can grow and shrink, with a base width of 200px */
+    margin: 10px;
+    /* Optional: Adds spacing between items */
+}
 
+/* Optional media query for even smaller screens to make it more responsive */
+@media (max-width: 768px) {
+    #services-container {
+        flex-direction: column;
+        /* Stack items in a column on smaller screens */
+    }
+
+    #services-container>* {
+        flex: 1 1 100%;
+        /* Ensure each item takes up full width on smaller screens */
+    }
 }

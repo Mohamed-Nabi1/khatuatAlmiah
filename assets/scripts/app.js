@@ -17,10 +17,8 @@ const routes = {
 function loadRoute(hash) {
   renderHeader();
   renderFooter();
-  // appContent.innerHTML = "";
 
-  const path = hash || window.location.hash || "/#";
-
+  const path = hash || "#/"; // Always default to '#/' if no hash
   const route = routes[path] || routes[404];
   route(appContent);
 }
@@ -35,7 +33,11 @@ document.addEventListener("click", (e) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadRoute(window.location.hash);
+  // Check if the current location hash is empty or not set, and force load renderHome
+  if (!window.location.hash) {
+    window.location.hash = "#/"; // Set to the homepage route explicitly
+  }
+  loadRoute(window.location.hash); // Load the initial route based on hash
 });
 
 window.addEventListener("hashchange", () => {
