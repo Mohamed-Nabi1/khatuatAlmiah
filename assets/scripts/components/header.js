@@ -1,7 +1,7 @@
 export function renderHeader() {
   const header = document.getElementById("header");
   header.innerHTML = `
-  <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary navbar-light shadow fixed-top">
+  <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary navbar-light shadow fixed-top ">
         <div class="container-fluid">
             <!-- Logo (aligned to the far left) -->
             <img src="https://png.pngtree.com/template/20190316/ourmid/pngtree-water-logo-image_79160.jpg"
