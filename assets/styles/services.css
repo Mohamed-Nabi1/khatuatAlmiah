@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
 }
 
 .services-container{
-    margin-top: 4rem;
-
-
-    
+    margin-top: 4rem;  
 }
 .services-container .box{
 
@@ -16,15 +16,14 @@
     text-align: center;
     background-color :#0074ca;
     color: white;
-    
-    font-size: 10rem;
+    font-size: 10vw;
 
 }
 .services-container .box2{
     padding: 1rem;
     text-align: center;
     color :#0074ca;    
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 .services-container .container{
@@ -36,16 +35,19 @@
 }
 .services-container .container .card{
     background-color: white;
-   margin: 1rem;
+    margin: 10px;
+   width: 20rem;
 }
 
-
-.services-container .container .logo{
- margin:auto
-
-}
 .services-container .container .logo img{ 
     max-width:  100%;
     height: 100%;
     object-fit: cover;
+    overflow-x: inherit;
+}
+.services-container p{
+    margin: 20px;
+    direction: rtl;
+    line-height: 1.5;
+    font-size: 20px;
 }

@@ -10,10 +10,10 @@ export function renderServices(mainContent) {
       <div class="container">
         <div class="row" >
           <!-- Column 1 -->
-          <div class="col-12 col-md-6">
-            <div class="column text-center">
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+            <div class="column">
               <div class="row">
-                <div class="card" style="width: 18rem">
+                <div class="card">
                   <img
                     src="./assets/images/image.png"
                     class="card-img-top"
@@ -22,7 +22,7 @@ export function renderServices(mainContent) {
                 </div>
               </div>
               <div class="row">
-                <div class="card" style="width: 18rem">
+                <div class="card" >
                     <img
                       src="./assets/images/image.png"
                       class="card-img-top"
@@ -33,7 +33,7 @@ export function renderServices(mainContent) {
             </div>
           </div>
           <!-- Column 2 -->
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="column">
              <div class="logo">
                 <img src="./assets/images/image.png" alt="">
@@ -42,5 +42,6 @@ export function renderServices(mainContent) {
           </div>
         </div>
       </div>
+      <p> تتميز شركة الأفضل بتوفير خدمات متكاملة  لانظمة  مياه من  تركيب و صيانة محطات تحلية المياه، تركيب و صيانة فلاتر المياه تحليل  وفحص المياه وخدمة تنظيف خزان مياه المنازل , تركيب اجهزة تبريد الخزانات  حيث تقوم الشركة بخدمة تركيب محطات تحلية مياه المنزل والصناعية باستخدام أحدث التقنيات وأفضل الفلاتر لتحسين المياه وإزالة الشوائب والملوثات. كما تتضمن الشركة تركيب فلاتر المياه، و صيانة  محطات التحلية، وتنظيف وتطهير الخطوط وشبكات المياه قبل التركيب</p>
     </div>`;
 }
