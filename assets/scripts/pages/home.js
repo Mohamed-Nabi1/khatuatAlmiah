@@ -18,8 +18,9 @@ export function renderHome(mainContent) {
 
     <!-- Button Container with Flexbox -->
     <div class="button-container d-flex flex-column align-items-center">
-        <button type="button" class="btn btn-primary rounded-1 w-auto w w-sm-25">اتصل بنا</button>
-        <button type="button" class="btn btn-primary rounded-1 w-auto w-sm-25">تواصل معنا على الواتساب</button>
+    <a href="tel:+201156505347" class="btn btn-primary rounded-1 w-auto w w-sm-25"   target="_blank">اتصل بنا</a>
+    <a href="https://wa.me/+201156505347" class="btn btn-primary rounded-1 w-auto w w-sm-25"   target="_blank">تواصل معنا على الواتساب </a>
+        
     </div>
 
     <div class="row expertise mt-3 px-5 py-5">
@@ -64,4 +65,6 @@ export function renderHome(mainContent) {
       "خدمة اضافة الفلاتر بدقة متناهيه وضمان سنه"
     )
   );
+
+  document.getElementsByClassName("btn btn-primary");
 }
