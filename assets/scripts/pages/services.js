@@ -43,5 +43,17 @@ export function renderServices(mainContent) {
         </div>
       </div>
       <p> تتميز شركة الأفضل بتوفير خدمات متكاملة  لانظمة  مياه من  تركيب و صيانة محطات تحلية المياه، تركيب و صيانة فلاتر المياه تحليل  وفحص المياه وخدمة تنظيف خزان مياه المنازل , تركيب اجهزة تبريد الخزانات  حيث تقوم الشركة بخدمة تركيب محطات تحلية مياه المنزل والصناعية باستخدام أحدث التقنيات وأفضل الفلاتر لتحسين المياه وإزالة الشوائب والملوثات. كما تتضمن الشركة تركيب فلاتر المياه، و صيانة  محطات التحلية، وتنظيف وتطهير الخطوط وشبكات المياه قبل التركيب</p>
-    </div>`;
+      <div class="row  slide-section">
+        <div class="col-4">
+          <div class="card">
+            <div class="card"><img src="./assets/images/image.png" alt=""></div>
+          </div>
+        </div>    
+        <div class="col-4">
+          <div class="card"><img src="./assets/images/image.png" alt=""></div>
+        </div>    
+        <div class="col-4">
+          <div class="card"><img src="./assets/images/image.png" alt=""></div>
+        </div>    
+      </div>`;
 }

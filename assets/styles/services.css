@@ -46,8 +46,27 @@
     overflow-x: inherit;
 }
 .services-container p{
+  
     margin: 20px;
+    padding: 0;
     direction: rtl;
     line-height: 1.5;
     font-size: 20px;
+}
+
+.slide-section{
+    padding: 20px;
+    margin: 0;
+background-color: #0074ca;
+}
+
+.slide-section .card{
+    width:25vw ;
+}
+
+
+.slide-section .card img{
+    width:100%;
+    height: 100%;
+
 }

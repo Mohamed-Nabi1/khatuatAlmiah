@@ -17,9 +17,9 @@ const routes = {
 function loadRoute(hash) {
   renderHeader();
   renderFooter();
-  appContent.innerHTML = "";
+  // appContent.innerHTML = "";
 
-  const path = hash || window.location.hash || "/";
+  const path = hash || window.location.hash || "/#";
 
   const route = routes[path] || routes[404];
   route(appContent);
@@ -29,7 +29,7 @@ document.addEventListener("click", (e) => {
   if (e.target.matches("[data-link]")) {
     e.preventDefault();
     const href = e.target.getAttribute("href");
-    window.location.hash = href; // Use the correct hash value
+    window.location.hash = href; 
     loadRoute(href);
   }
 });
