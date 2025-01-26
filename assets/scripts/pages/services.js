@@ -3,8 +3,8 @@ import { loadCSS, unloadCSS } from "../utils/cssloader.js";
 export function renderServices(mainContent) {
   unloadCSS("./assets/styles/home.css");
   loadCSS("./assets/styles/services.css");
-  // mainContent.innerHTML=`Services`;
-  mainContent.innerHTML = ` <div class="services-container">
+
+  mainContent.innerHTML = ` <div class="services-container p-5">
       <div class="box">خدماتنا</div>
       <div class="box2">خدماتنا</div>
       <div class="container">
