@@ -36,7 +36,7 @@ export function renderServices(mainContent) {
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="column">
              <div class="logo">
-                <img src="./assets/images/image.png" alt="">
+                <img src="./assets/images/image_white.png" alt="">
              </div>
             </div>
           </div>
