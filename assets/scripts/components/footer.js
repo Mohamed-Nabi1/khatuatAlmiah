@@ -9,7 +9,7 @@ export function renderFooter() {
                 <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            
-            <p>.&copy;2025 جميع الحقوق محفوظة لشركة خطوات المياه</p>
+            <p>الرقم الضريبي : 7040077435</p>
+            <p>&copy;2025 جميع الحقوق محفوظة لشركة خطوات التنقيه التجاريه</p>
         </div>`;
 }
