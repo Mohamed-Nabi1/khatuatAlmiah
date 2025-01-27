@@ -18,8 +18,8 @@ export function renderHome(mainContent) {
 
     <!-- Button Container with Flexbox -->
     <div class="button-container d-flex flex-column align-items-center">
-    <a href="tel:+201156505347" class="btn btn-primary rounded-1 w-auto w w-sm-25"   target="_blank">اتصل بنا</a>
-    <a href="https://wa.me/+201156505347" class="btn btn-primary rounded-1 w-auto w w-sm-25"   target="_blank">تواصل معنا على الواتساب </a>
+    <a href="tel:+966502442796" class="btn btn-primary rounded-1 w-auto w w-sm-25"   target="_blank">اتصل بنا</a>
+    <a href="https://wa.me/+966502442796" class="btn btn-primary rounded-1 w-auto w w-sm-25"   target="_blank">تواصل معنا على الواتساب </a>
         
     </div>
 
@@ -47,7 +47,7 @@ export function renderHome(mainContent) {
     renderServiceCard(
       "./assets/images/1.jpg",
       "بيع فلاتر المياه",
-      "بيع أفضل وأجود انواع فلاتر المياه"
+      "خدمة بيع أفضل وأجود انواع فلاتر المياه"
     )
   );
   servicesContainer.appendChild(
@@ -61,7 +61,7 @@ export function renderHome(mainContent) {
     renderServiceCard(
       "./assets/images/3.jpg",
       "صيانة فلاتر المياه",
-      "توريد وتركيب وصيانة فلاتر مياه بأعلي جودة"
+      "خدمة تركيب وصيانة فلاتر مياه بأعلي جودة"
     )
   );
 
