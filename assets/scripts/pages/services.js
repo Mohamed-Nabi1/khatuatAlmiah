@@ -5,7 +5,6 @@ export function renderServices(mainContent) {
   loadCSS("./assets/styles/services.css");
 
   mainContent.innerHTML = ` <div class="services-container p-5">
-      <div class="box">خدماتنا</div>
       <div class="box2">خدماتنا</div>
       <div class="container">
         <div class="row" >
@@ -15,7 +14,7 @@ export function renderServices(mainContent) {
               <div class="row">
                 <div class="card">
                   <img
-                    src="./assets/images/image.png"
+                    src="./assets/images/logo.svg"
                     class="card-img-top"
                     alt="..."
                   />
@@ -24,7 +23,7 @@ export function renderServices(mainContent) {
               <div class="row">
                 <div class="card" >
                     <img
-                      src="./assets/images/image.png"
+                      src="./assets/images/logo.svg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -36,7 +35,7 @@ export function renderServices(mainContent) {
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="column">
              <div class="logo">
-                <img src="./assets/images/image_white.png" alt="">
+                <img src="./assets/images/logo.svg" alt="">
              </div>
             </div>
           </div>
@@ -46,14 +45,14 @@ export function renderServices(mainContent) {
       <div class="row  slide-section">
         <div class="col-4">
           <div class="card">
-            <div class="card"><img src="./assets/images/image.png" alt=""></div>
+            <div class="card"><img src="./assets/images/logo.svg" alt=""></div>
           </div>
         </div>    
         <div class="col-4">
-          <div class="card"><img src="./assets/images/image.png" alt=""></div>
+          <div class="card"><img src="./assets/images/logo.svg" alt=""></div>
         </div>    
         <div class="col-4">
-          <div class="card"><img src="./assets/images/image.png" alt=""></div>
+          <div class="card"><img src="./assets/images/logo.svg" alt=""></div>
         </div>    
       </div>`;
 }

@@ -7,9 +7,9 @@ export function renderHeader() {
   <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary navbar-light shadow fixed-top ">
         <div class="container-fluid">
             <!-- Logo (aligned to the far left) -->
-            <img src="assets/images/image.png"
+            <img src="assets/images/logo.svg"
                 class="img-fluid" alt="logo image" width="40px" height="40px">
-            <a class="navbar-brand ps-2" href="#">خطوات المياه</a>
+            <a class="navbar-brand ps-2" href="#">خطوات التنقية التجارية</a>
 
             <!-- Toggler for smaller screens -->
             <button class="navbar-toggler text-center" type="button" data-bs-toggle="collapse"
