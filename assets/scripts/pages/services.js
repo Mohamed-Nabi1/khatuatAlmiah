@@ -17,6 +17,7 @@ export function renderServices(mainContent) {
                     src="./assets/images/1.jpg"
                     class="card-img-top"
                     alt="..."
+                    
                   />
                 </div>
               </div>
@@ -63,7 +64,7 @@ export function renderServices(mainContent) {
   <!-- Column 2 -->
   <div class="col-12 col-md-4">
     <div class="card">
-      <img src="./assets/images/2.jpg" alt="">
+      <img src="./assets/images/2.jpg" >
     </div>
   </div>
 
