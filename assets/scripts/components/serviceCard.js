@@ -4,7 +4,7 @@ export function renderServiceCard(image, title, desc) {
   card.className = "col text-center";
 
   card.innerHTML = `
-        <img class="img-fluid pb-4" src=${image}
+        <img class="services rounded-circle pb-4" src=${image}
             alt="image" width="300px" height="300px">
         <div class="h3 pb-4">${title}</div>
         <div class="h5 pb-4">${desc}</div>

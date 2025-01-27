@@ -45,23 +45,23 @@ export function renderHome(mainContent) {
   const servicesContainer = document.getElementById("services-container");
   servicesContainer.appendChild(
     renderServiceCard(
-      "https://i.pinimg.com/736x/4f/13/f3/4f13f34fdbf1f0c8835e91897cb61a63.jpg",
-      "خدمة اضافة الفلاتر",
-      "خدمة اضافة الفلاتر بدقة متناهيه وضمان سنه"
+      "./assets/images/1.jpg",
+      "بيع فلاتر المياه",
+      "بيع أفضل وأجود انواع فلاتر المياه"
     )
   );
   servicesContainer.appendChild(
     renderServiceCard(
-      "https://i.pinimg.com/736x/4f/13/f3/4f13f34fdbf1f0c8835e91897cb61a63.jpg",
-      "خدمة اضافة الفلاتر",
-      "خدمة اضافة الفلاتر بدقة متناهيه وضمان سنه"
+      "./assets/images/2.jpg",
+      "محطات تحلية المياه",
+      "خدمة تركيب وصيانة محطات تحلية المياه"
     )
   );
   servicesContainer.appendChild(
     renderServiceCard(
-      "https://i.pinimg.com/736x/4f/13/f3/4f13f34fdbf1f0c8835e91897cb61a63.jpg",
-      "خدمة اضافة الفلاتر",
-      "خدمة اضافة الفلاتر بدقة متناهيه وضمان سنه"
+      "./assets/images/3.jpg",
+      "صيانة فلاتر المياه",
+      "توريد وتركيب وصيانة فلاتر مياه بأعلي جودة"
     )
   );
 
