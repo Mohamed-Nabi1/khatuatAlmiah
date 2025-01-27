@@ -17,7 +17,6 @@ export function renderServices(mainContent) {
                     src="./assets/images/1.jpg"
                     class="card-img-top"
                     alt="..."
-                    
                   />
                 </div>
               </div>
