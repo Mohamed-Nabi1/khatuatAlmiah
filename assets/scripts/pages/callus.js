@@ -8,8 +8,9 @@ export function renderCallUs(mainContent) {
   mainContent.innerHTML = `
     <div class="container text-center">
       <!-- Logo Section -->
-      <img src="./assets/images/logo.svg" alt="logo image" class="img-fluid w-50 p-5">
-
+      <div class="logo-section">
+        <img src="./assets/images/logo.svg" alt="logo image" class="img-fluid p-5">
+      </div>
 
       <!-- Content Section -->
       <div class="row content-section w-100 p-5">

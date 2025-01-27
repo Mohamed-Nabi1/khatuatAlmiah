@@ -18,3 +18,11 @@ a {
     color: #ddd; /* Lighter color on hover */
     text-decoration: none;
   }
+  .logo-section{
+    height: 40vh;
+    width: 100%;
+  }
+  .logo-section img{
+    width: 100%;
+    height: 100%;
+  }
