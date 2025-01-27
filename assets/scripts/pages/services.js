@@ -14,7 +14,7 @@ export function renderServices(mainContent) {
               <div class="row">
                 <div class="card">
                   <img
-                    src="./assets/images/logo.svg"
+                    src="./assets/images/1.jpg"
                     class="card-img-top"
                     alt="..."
                   />
@@ -23,7 +23,7 @@ export function renderServices(mainContent) {
               <div class="row">
                 <div class="card" >
                     <img
-                      src="./assets/images/logo.svg"
+                      src="./assets/images/2.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -50,17 +50,28 @@ export function renderServices(mainContent) {
        والملوثات. كما تتضمن الشركة تركيب فلاتر المياه، 
       و صيانة  محطات التحلية، وتنظيف وتطهير
        الخطوط وشبكات المياه قبل التركيب</p>
-      <div class="row  slide-section">
-        <div class="col-4">
-          <div class="card">
-            <div class="card"><img src="./assets/images/logo.svg" alt=""></div>
-          </div>
-        </div>    
-        <div class="col-4">
-          <div class="card"><img src="./assets/images/logo.svg" alt=""></div>
-        </div>    
-        <div class="col-4">
-          <div class="card"><img src="./assets/images/logo.svg" alt=""></div>
-        </div>    
-      </div>`;
+      <div class="row slide-section">
+  <!-- Column 1 -->
+  <div class="col-12 col-md-4">
+    <div class="card">
+      <div class="card">
+        <img src="./assets/images/1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Column 2 -->
+  <div class="col-12 col-md-4">
+    <div class="card">
+      <img src="./assets/images/2.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- Column 3 -->
+  <div class="col-12 col-md-4">
+    <div class="card">
+      <img src="./assets/images/3.jpg" alt="">
+    </div>
+  </div>
+</div>`;
 }
