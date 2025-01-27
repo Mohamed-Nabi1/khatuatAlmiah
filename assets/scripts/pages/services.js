@@ -1,5 +1,5 @@
 import { loadCSS, unloadCSS } from "../utils/cssloader.js";
-
+import { renderCard } from "../components/renderCard.js";
 export function renderServices(mainContent) {
   unloadCSS("./assets/styles/home.css");
   loadCSS("./assets/styles/services.css");
@@ -12,22 +12,10 @@ export function renderServices(mainContent) {
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="column">
               <div class="row">
-                <div class="card">
-                  <img
-                    src="./assets/images/1.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                </div>
+                <div id="imag1"> </div>
               </div>
               <div class="row">
-                <div class="card" >
-                    <img
-                      src="./assets/images/2.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-                  </div>
+                  <div id="imag2"> </div>
               </div>
             </div>
           </div>
@@ -50,28 +38,19 @@ export function renderServices(mainContent) {
        والملوثات. كما تتضمن الشركة تركيب فلاتر المياه، 
       و صيانة  محطات التحلية، وتنظيف وتطهير
        الخطوط وشبكات المياه قبل التركيب</p>
-      <div class="row slide-section">
-  <!-- Column 1 -->
-  <div class="col-12 col-md-4">
-    <div class="card">
-      <div class="card">
-        <img src="./assets/images/1.jpg" alt="">
-      </div>
-    </div>
-  </div>
+   <div id="services-container" class="p-5"></div>
 
-  <!-- Column 2 -->
-  <div class="col-12 col-md-4">
-    <div class="card">
-      <img src="./assets/images/2.jpg" >
-    </div>
-  </div>
+ `;
+  const servicesContainer = document.getElementById("services-container");
+  servicesContainer.appendChild(renderCard("./assets/images/1.jpg"));
+  servicesContainer.appendChild(renderCard("./assets/images/2.jpg"));
+  servicesContainer.appendChild(renderCard("./assets/images/3.jpg"));
 
-  <!-- Column 3 -->
-  <div class="col-12 col-md-4">
-    <div class="card">
-      <img src="./assets/images/3.jpg" alt="">
-    </div>
-  </div>
-</div>`;
+  document
+    .getElementById("imag1")
+    .appendChild(renderCard("./assets/images/1.jpg"));
+
+    document
+    .getElementById("imag2")
+    .appendChild(renderCard("./assets/images/2.jpg"));
 }
