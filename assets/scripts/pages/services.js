@@ -41,8 +41,7 @@ export function renderServices(mainContent) {
     فحص نظام الأشعة فوق البنفسجية (UV): التأكد من عمل نظام UV بشكل فعال للقضاءعلى أي بكتيريا أو فيروسات.
     فحص مضخات المياه: التأكد من عمل المضخات بشكل سليم لتوفير تدفق مياه مستمر.
     </p>
-   <p></p>
-        <div id="services-container" class="p-5"></div>
+        <div id="services-container" class="p-5 " ></div>
 
  `;
   const servicesContainer = document.getElementById("services-container");
