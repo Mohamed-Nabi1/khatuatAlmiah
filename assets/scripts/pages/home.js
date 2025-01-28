@@ -65,6 +65,13 @@ export function renderHome(mainContent) {
       "خدمة تركيب وصيانة فلاتر مياه بأعلي جودة"
     )
   );
+  servicesContainer.appendChild(
+    renderServiceCard(
+      "./assets/images/4.jpg",
+      "عرض خاص لفتره محدوده",
+      "فلتر تايواني 7 مراحل تقنيه امريكيه"
+    )
+  );
 
   document.getElementsByClassName("btn btn-primary");
 }
