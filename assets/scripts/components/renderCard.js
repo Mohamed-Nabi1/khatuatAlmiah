@@ -5,7 +5,7 @@ export function renderCard(image) {
   
     card.innerHTML = `
           <img class="services rounded-circle pb-4" src=${image}
-              alt="image" width="300px" height="300px">
+              alt="image" style="width: 230px; height: 230px;">
       `;
     return card;
   }
