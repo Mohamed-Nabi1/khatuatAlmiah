@@ -42,15 +42,33 @@ export function renderServices(mainContent) {
 
  `;
   const servicesContainer = document.getElementById("services-container");
-  servicesContainer.appendChild(renderCard("./assets/images/1.jpg"));
-  servicesContainer.appendChild(renderCard("./assets/images/2.jpg"));
-  servicesContainer.appendChild(renderCard("./assets/images/3.jpg"));
+  servicesContainer.appendChild(
+    renderCard(
+      "./assets/images/1.jpg",
+      "بيع فلاتر المياه",
+      "خدمة بيع أفضل وأجود انواع فلاتر المياه"
+    )
+  );
+  servicesContainer.appendChild(
+    renderCard(
+      "./assets/images/2.jpg",
+      "محطات تحلية المياه",
+      "خدمة تركيب وصيانة محطات تحلية المياه"
+    )
+  );
+  servicesContainer.appendChild(
+    renderCard(
+      "./assets/images/3.jpg",
+      "صيانة فلاتر المياه",
+      "خدمة تركيب وصيانة فلاتر مياه بأعلي جودة"
+    )
+  );
 
   document
     .getElementById("imag1")
-    .appendChild(renderCard("./assets/images/1.jpg"));
+    .appendChild(renderCard("./assets/images/1.jpg",'',''));
 
-    document
+  document
     .getElementById("imag2")
-    .appendChild(renderCard("./assets/images/2.jpg"));
+    .appendChild(renderCard("./assets/images/2.jpg",'',''));
 }
