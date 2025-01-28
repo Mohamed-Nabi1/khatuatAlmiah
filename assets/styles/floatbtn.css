@@ -1,0 +1,18 @@
+/* Custom CSS for the floating button */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    /* Ensure it stays on top of other elements */
+}
+
+.floating-btn a {
+    background-color: green;
+}
+
+/* Optional: Add hover effect */
+.floating-btn a:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
