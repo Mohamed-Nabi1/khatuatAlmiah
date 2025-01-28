@@ -59,7 +59,6 @@
 
 #services-container>* {
     flex: 1 1 200px;
-    margin: 10px;
 }
 
 
@@ -69,18 +68,15 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        /* Stack items in a column on smaller screens */
     }
     #services-container img {
         max-width: 200px;
         min-height: 200px;
        
-        /* Stack items in a column on smaller screens */
     }
 
     #services-container>* {
         flex: 1 1 100%;
-        /* Ensure each item takes up full width on smaller screens */
     }
 
    
