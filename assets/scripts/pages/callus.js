@@ -3,6 +3,7 @@ import { unloadCSS } from "../utils/cssloader.js";
 
 export function renderCallUs(mainContent) {
   unloadCSS("./assets/styles/home.css");
+  unloadCSS("./assets/styles/aboutus.css")
   loadCSS("./assets/styles/callus.css");
 
   mainContent.innerHTML = `
