@@ -1,7 +1,8 @@
 import { renderServiceCard } from "../components/serviceCard.js";
-import { loadCSS } from "../utils/cssloader.js";
+import { loadCSS, unloadCSS } from "../utils/cssloader.js";
 
 export function renderHome(mainContent) {
+  unloadCSS("./assets/styles/services.css");
   loadCSS("./assets/styles/home.css");
   mainContent.innerHTML = `
   <div class="position-relative">
