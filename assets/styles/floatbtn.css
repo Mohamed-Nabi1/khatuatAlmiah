@@ -1,14 +1,15 @@
-/* Custom CSS for the floating button */
 .floating-btn {
     position: fixed;
-    bottom: 20px;
     right: 20px;
-    z-index: 1000;
-    /* Ensure it stays on top of other elements */
+    z-index: 1000; /* Ensure it stays on top of other elements */
 }
 
-.floating-btn a {
-    background-color: green;
+.floating-btn.whatsapp-btn {
+    bottom: 80px; /* Adjust position */
+}
+
+.floating-btn.call-btn {
+    bottom: 20px; /* Keep this lower */
 }
 
 /* Optional: Add hover effect */
