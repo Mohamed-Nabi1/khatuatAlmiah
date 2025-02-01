@@ -5,18 +5,12 @@ export function renderServices(mainContent) {
   loadCSS("./assets/styles/services.css");
 
   mainContent.innerHTML = ` <div class="services-container p-5">
-      <div class="box2">خدماتنا</div>
-      <div class="container">
+        <div class="container">
         <div class="row" >
           <!-- Column 1 -->
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="column">
-              <div class="row">
-                <div id="imag1"> </div>
-              </div>
-              <div class="row">
-                  <div id="imag2"> </div>
-              </div>
+              <div class="box3">خدماتنا</div>
             </div>
           </div>
           <!-- Column 2 -->

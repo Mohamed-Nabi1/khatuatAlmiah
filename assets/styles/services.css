@@ -16,8 +16,15 @@
     font-size: 5vw;
 }
 
+.box3 {
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 5vw;
+}
+
 .services-container .container {
-    padding: 20px;
+    padding: 30px;
     background-color: #7AB2D3;
     height: fit-content;
     margin-bottom: 20px;
@@ -38,7 +45,7 @@
 .services-container p {
 
     margin: 20px;
-    padding: 0;
+    padding: 20;
     direction: rtl;
     line-height: 1.5;
     font-size: 20px;

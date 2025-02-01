@@ -28,14 +28,25 @@
 }
 
 .expertise {
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
     background-color: #7AB2D3;
 }
 
 .expertise-text {
     direction: rtl;
     color: white;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.article-section{
+    margin: 0 !important;
+    padding: 10px !important;
+    background-color: #7AB2D3;
 }
 
 #services-container {
