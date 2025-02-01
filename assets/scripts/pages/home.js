@@ -21,7 +21,7 @@ export function renderHome(mainContent) {
 
     <div class="row expertise mt-3 px-5 py-5">
     <div class="col-12 col-md-6 text-center align-content-center">
-        <img class="img-fluid" src="./assets/images/logo.svg" alt="logo image">
+        <img class="img-fluid" src="./assets/images/logo.svg" alt="شركة خطوات التنقية التجارية - فلاتر المياه">
     </div>
     <div class="expertise-text col-12 col-md-6 align-content-center">
         <div class="h1 text-center p-2">خبراء معالجة المياه</div>

@@ -10,7 +10,7 @@ export function renderCallUs(mainContent) {
     <div class="container text-center">
       <!-- Logo Section -->
       <div class="logo-section">
-        <img src="./assets/images/logo.svg" alt="logo image" class="img-fluid w-80 p-3">
+        <img src="./assets/images/logo.svg" alt="شركة خطوات التنقية التجارية - فلاتر المياه" class="img-fluid w-80 p-3">
       </div>
 
       <!-- Content Section -->

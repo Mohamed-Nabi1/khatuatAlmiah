@@ -6,7 +6,7 @@ export function renderAboutUs(mainContent) {
   mainContent.innerHTML = `
    <div class="container text-center">
         <!-- Logo Section -->
-        <img src="./assets/images/logo.svg" alt="logo image" class="img-fluid w-60 p-2">
+        <img src="./assets/images/logo.svg" alt="شركة خطوات التنقية التجارية - فلاتر المياه" class="img-fluid w-60 p-2">
 
 
         <!-- Content Section -->

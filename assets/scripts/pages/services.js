@@ -17,7 +17,7 @@ export function renderServices(mainContent) {
           <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <div class="column">
              <div class="logo">
-                <img src="./assets/images/logo.svg" alt="">
+                <img src="./assets/images/logo.svg" alt="شركة خطوات التنقية التجارية - فلاتر المياه">
              </div>
             </div>
           </div>

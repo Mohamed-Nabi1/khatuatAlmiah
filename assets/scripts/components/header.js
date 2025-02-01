@@ -8,7 +8,7 @@ export function renderHeader() {
         <div class="container-fluid">
             <!-- Logo (aligned to the far left) -->
             <img src="assets/images/logo.svg"
-                class="img-fluid" alt="logo image" width="60px" height="60px">
+                class="img-fluid" alt="شركة خطوات التنقية التجارية - فلاتر المياه" width="60px" height="60px">
             <a class="navbar-brand" href="#">خطوات التنقية التجارية</a>  
 
             <!-- Toggler for smaller screens -->
