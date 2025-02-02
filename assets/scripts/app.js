@@ -6,40 +6,46 @@ import { renderServices } from "./pages/services.js";
 import { renderCallUs } from "./pages/callus.js";
 
 const appContent = document.getElementById("main-content");
+
+// Define routes
 const routes = {
-  "#/": renderHome,
-  "#/aboutus": renderAboutUs,
-  "#/services": renderServices,
-  "#/callus": renderCallUs,
+  "/": renderHome,
+  "/aboutus": renderAboutUs,
+  "/services": renderServices,
+  "/callus": renderCallUs,
   404: () => (appContent.innerHTML = `<h2>404 - page not found</h2>`),
 };
 
-function loadRoute(hash) {
+function loadRoute(pathname) {
   renderHeader();
   renderFooter();
 
-  const path = hash || "#/"; // Always default to '#/' if no hash
-  const route = routes[path] || routes[404];
+  // Ensure valid routing
+  const route = routes[pathname] || routes[404];
   route(appContent);
 }
 
+// Handle navigation clicks
 document.addEventListener("click", (e) => {
   if (e.target.matches("[data-link]")) {
     e.preventDefault();
     const href = e.target.getAttribute("href");
-    window.location.hash = href;
-    loadRoute(href);
+
+    if (window.location.pathname !== href) {
+      history.pushState(null, "", href);
+      loadRoute(href);
+    }
   }
 });
 
+// Handle page load and browser navigation
 document.addEventListener("DOMContentLoaded", () => {
-  // Check if the current location hash is empty or not set, and force load renderHome
-  if (!window.location.hash) {
-    window.location.hash = "#/"; // Set to the homepage route explicitly
+  if (window.location.pathname === "/index.html") {
+    history.replaceState(null, "", "/"); // Normalize root path
   }
-  loadRoute(window.location.hash); // Load the initial route based on hash
+  loadRoute(window.location.pathname);
 });
 
-window.addEventListener("hashchange", () => {
-  loadRoute(window.location.hash);
+window.addEventListener("popstate", () => {
+  loadRoute(window.location.pathname);
 });
