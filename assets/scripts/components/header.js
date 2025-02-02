@@ -38,6 +38,12 @@ document.addEventListener("click", (e) => {
     if (window.location.pathname !== href) {
       history.pushState(null, "", href);
       window.dispatchEvent(new Event("popstate")); // Triggers route update
+      window.scrollTo(0, 0); // Scroll to top on navigation
     }
   }
+});
+
+// Ensure scrolling to top when using back/forward navigation
+window.addEventListener("popstate", () => {
+  window.scrollTo(0, 0);
 });
