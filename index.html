@@ -43,6 +43,40 @@
 
   gtag('config', 'AW-16859527357');
 </script>
+<!-- Event snippet for انقر للاتصال conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16859527357/LLorCMbz550aEL3xn-c-',
+        'value': 1.0,
+        'currency': 'EGP',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) !== 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-16859527357/LLorCMbz550aEL3xn-c-',
+        'value': 1.0,
+        'currency': 'EGP',
+        'event_callback': callback
+    });
+    return false;
+  }
+</script>
 </head>
 
 <body>
@@ -60,8 +94,10 @@
   </div>
 
   <div class="floating-btn call-btn">
-    <a href="tel:+966502442796" class="btn btn-lg rounded-circle shadow"
-      style="background-color: rgb(187, 39, 39); color: white;">
+    <a href="tel:+966502442796" 
+       class="btn btn-lg rounded-circle shadow"
+       style="background-color: rgb(187, 39, 39); color: white;"
+       onclick="gtag_report_conversion('tel:+966502442796')">
       <i class="fas fa-phone"></i>
     </a>
   </div>

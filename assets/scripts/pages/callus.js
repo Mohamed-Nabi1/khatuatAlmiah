@@ -19,7 +19,10 @@ export function renderCallUs(mainContent) {
         <p>نسعد بخدمتك وتقديم أفضل حلول أنظمة المياه</p>
         <div class="contact-info text-end">
             <p > 
-                <strong><i class="fas fa-phone"></i> هاتف:</strong> <a href="tel:+966502442796">0502442796</a><br>
+                <strong><i class="fas fa-phone"></i> هاتف:</strong> 
+<a href="tel:+966502442796" onclick="gtag_report_conversion('tel:+966502442796')">
+  0502442796
+</a><br> 
                 <strong><i class="fas fa-envelope"></i> بريد إلكتروني:</strong> <a href="mailto:PurificationSteps@gmail.com">PurificationSteps@gmail.com</a><br>
                 <strong><i class="fas fa-map-marker-alt"></i> العنوان:</strong> المملكة العربية السعودية الرياض حي اليرموك شارع المليسان
             </p>
@@ -29,7 +32,7 @@ export function renderCallUs(mainContent) {
     <div class="col-12">
         <h3>موقعنا</h3>
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.234567890123!2d46.12345678901234!3d24.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDA3JzI0LjQiTiA0NsKwMDcnMjQuNCJF!5e0!3m2!1sen!2ssa!4v1234567890123!5m2!1sen!2ssa"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4314.580179939149!2d46.776205009304!3d24.801146988267536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2seg!4v1739481613132!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             width="100%"
             height="300"
             style="border:0;"
