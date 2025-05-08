@@ -23,7 +23,7 @@ To run the project locally, follow these steps:
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/khatawat-tanqia.git
+git clone https://github.com/Mohamed-Nabi1/khatuatAlmiah.git
 
 # Navigate to the project folder
 cd khatawat-tanqia
